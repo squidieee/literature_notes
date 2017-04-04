@@ -59,3 +59,74 @@ This paper examines the user experience in the actual gameplays with Oculus Rift
 *Useful summery of the previous work on the user study with HMD: what kind of problems the HMD has.*
 
 *Insights are useful for designing content for the Rift/HMDs.*
+
+# 3D User Interfaces: New Directions and New Perspectives
+
+2008 Bowman
+
+A symposium survey paper on 3D User Interface reflecting on the state of the art in 2008. 
+
+**Multisensory Input for Improved Performance**
+
+- Provide a *pipeline with six steps* to design the combination of different input devices.
+- Discuss input device design issues: 
+  - each input device has specific *sensory feedback* (e.g joystick's counterforce); it is important to match its feedback with the task.
+  - provide simultaneous and separate DoF though an ergonomic arrangement of various sensors; 
+
+**3D Interfaces for Multidisplay Environments**
+
+- Describe techniques to manage windows and text (2D GUI) in multi-screen environment:
+
+  - perspective cursor
+  - perspective window
+
+**Guidelines for Easy-to-Use 3D Interaction Techniques**
+
+Useful discussions on the importance of constraints in 3DUI:
+- 2D tasks are cognitively simpler than 3D
+- 2D input devices are advantageous: less hand fatigue and more accuracy
+
+**3D UIs for and beyong VR**
+
+3D UIs are not necessary to only support VR. They should be able to impact both VR and ordinary desktop. But there are several questions to answer:
+- Research must provide evidence that *3D UIs have significant advantages over desktop-style interactions*: empirical studies that compare 3D UIs to 2D UIs are conducted. 
+- Find out areas where interaction is problematic and 3D UIs will be a good fit: gaming like kinect, wii; large display in public space to provide interactions with people standing up and walking around. 
+
+# Separating the Effects of Level of Immersion and 3D Interaction Techniques
+
+2006 McMahan
+
+This paper evaluates the importance of immersion and 3D interaction techniques by separating them. They made several good points:
+
+- Unlike the *presence*, immersion is measurable. The immersion is defined as *"the objective level of fidelity of the sensory stimuli produced by a technological system"*. 
+
+- Immersion consists of resolution, FoV, stereoscopy, field of regard(number of CAVE walls) etc.
+
+- They pick stereoscopy and field of regard as variables of immersion.
+
+- They pick DO-IT, GOGO and HOMER as variables of interaction techniques, within which DO-IT is the Desktop-Based Technique.
+
+- They pick a 3D manipulation task as the evaluation task.
+
+They conclude that the interaction technique has a significant effect on task performance, while the two variables of immersion did not.
+
+*Their study is not sufficient since stereoscopy becomes important within arm distance, while their setup places objects in distant positions.*
+
+They also conclude that for distant object manipulations, 3D interaction techniques work significantly better than 2D desktop-based interactions.
+
+# A Survey of 3D Object Selection Techniques for Virtual Environments
+
+2013 Argelaguet 
+
+A review paper that surveys 3D selection techinques, including human control models and existing selection techniques.
+
+- Human pointing models:
+ - Fitts Law: estimate the movement time according to the target size.
+ - optimized initial impulse model: a twe phase model that describes the process of acquisition task. Ballistic phase: fast and inaccurate movement toward the target; Corrective phase: slow and accurate movement executed in close loop feeback until objects are acquired.
+
+- 3D Selection Classification
+ - selection tool: shape (ray, cone, cube and sphere); some selection techniques allow users to change to shape during intereaction.
+ - DoF
+ - disambiguation mechanism
+ - cd ratio
+ - motor and visual space relationship
