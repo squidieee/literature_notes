@@ -273,8 +273,15 @@ These selection techniques were evaluated in terms of accuracy, completion time,
 *Their Conclusion on symmetric property may be biased given that the box shape is symmetric. Selection techniques use other geometric primitives may have different conclusions.*
 *Their evaluation setup is worth learning.*
 
-# Perceiving real-world viewpoint  changes
+# Perceiving real-world viewpoint changes
 Daniel Simons 1998
 
 A research report on the distinction between object rotations and viewpoint motions. Both object rotations and viewpoint motions generate the same retina image, but this report focuses on distinguishing the mechanisms of object rotations and viewpoint motions. Viewpoint motions potentially provide more information than object orientations, including but not limited to the spatial reference (visual information), vestibular and proprioceptive information. But they did not compare the task performances of object orientation and viewpoint movement conditions. Instead, they compared the effect of changing retina projections in the condition of rotation and movements. They found even when orientation changes and viewpoint changes produced the same changes to the retinal projection, accuracy was disrupted only in the orientation condition, not in the movement condition.
 
+# Chunking and Phrasing and the design of human-computer dialogues
+William Buxton 1986
+
+ This paper talks about how to design user interface pragmatics so that we can accelerate the process whereby novices begin to perform like experts. Experts and novices differ in the coarseness of granularity with which they view the constituent elements of a particular problem or task. Novices are attentive to low-level details. With experts, these low-level details can be performed automatically.
+
+ - One major problem is the cognitive load imposed by remembering the tokens and their orders of a command. The approach is to limit the number of arguments to a command. (eg: 1-step move vs. 2-step copy n' paste)
+- When compound task is necessary, breaks it into sub-tasks. Sub-tasks require the "glue" to tie them together. (eg: select from a pop-up menu = invoke the menu + navigate to select + select, the tension of the finger holding down the button is the "glue" which provides constant feedback that we are in a temporary state.)
