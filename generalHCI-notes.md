@@ -1,3 +1,12 @@
+# Chunking and Phrasing and the design of human-computer dialogues
+
+William Buxton 1986
+
+ This paper talks about how to design user interface pragmatics so that we can accelerate the process whereby novices begin to perform like experts. Experts and novices differ in the coarseness of granularity with which they view the constituent elements of a particular problem or task. Novices are attentive to low-level details. With experts, these low-level details can be performed automatically.
+
+- One major problem is the cognitive load imposed by remembering the tokens and their orders of a command. The approach is to limit the number of arguments to a command. (eg: 1-step move vs. 2-step copy n' paste)
+- When compound task is necessary, breaks it into sub-tasks. Sub-tasks require the "glue" to tie them together. (eg: select from a pop-up menu = invoke the menu + navigate to select + select, the tension of the finger holding down the button is the "glue" which provides constant feedback that we are in a temporary state.)
+
 # User studies and Usability Evaluations: From Research to Products
 
 I. Scott Kackenzie 2015
