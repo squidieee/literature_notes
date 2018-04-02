@@ -275,6 +275,33 @@ These selection techniques were evaluated in terms of accuracy, completion time,
 
 # Perceiving real-world viewpoint changes
 Daniel Simons 1998
-
+(Psychology study)
 A research report on the distinction between object rotations and viewpoint motions. Both object rotations and viewpoint motions generate the same retina image, but this report focuses on distinguishing the mechanisms of object rotations and viewpoint motions. Viewpoint motions potentially provide more information than object orientations, including but not limited to the spatial reference (visual information), vestibular and proprioceptive information. But they did not compare the task performances of object orientation and viewpoint movement conditions. Instead, they compared the effect of changing retina projections in the condition of rotation and movements. They found even when orientation changes and viewpoint changes produced the same changes to the retinal projection, accuracy was disrupted only in the orientation condition, not in the movement condition.
 
+# Eye-hand co-ordination with force feedback
+Colin Ware 2000
+
+An emprical study that investigates the importance of head coupling and force feedback in conducting Fitts Law Tapping Task. Both of the head-coupling and force feedback have been found to imporve tapping performance by 20%. So skilled designers can take advantage of these tools and improve their working efficiency. 
+Tapping Task has been modified by introducing a "barrier" which forces changes of the head position by leaning to the left/right. 
+Eye-hand coordination is introduced as hand movement controlled with visual feedback and reinforced by hand contact with objects. 
+
+# The importance of stereo and eye coupled perspective for eye-hand coordination in fish tank VR
+Colin Ware 2004
+
+An emprical study that investigates the importance of visual cues in conducting Fitts Law Tapping Task. Stereopsis is found to be more important than motion parallax. 
+Tapping Task has been modified by introducing a "barrier" which forces changes of the head position by leaning to the left/right. 
+Stereopsis is expected to be more important in eye-hand coordination based on previous studies and observations (threading a needle requires steady hands without parallax information).
+
+# The roles of vision and eye movements in the control of activities of daily living
+Michael Land 1999
+(Psychology study)
+An experiment that determines the pattern of eye fixations in a tea-making task in a natural setting. There are four functions of gaze fixation in manipulation task: 
+- locating objects
+- directing the hand/object in hand to contact another object
+- guiding contact between two objects that are approaching one another
+- checking the state of task-related variables
+
+# Eye–Hand Coordination in Object Manipulation
+Roland Johansson 2001
+(Psychology study)
+An expriment that analyzed the coordination of gaze behavior and hand movement. They found subjects exclusively fixated certain landmarks critical for the control of the task. They never fixated the hand or the moving bar. The instant that gaze exited a given landmark coincided with a kinematic event at that landmark (reaching the landmark with hand) in a manner suggesting that subjects monitored critical kinematic events for phasic verification of task.
