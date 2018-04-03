@@ -305,3 +305,22 @@ An experiment that determines the pattern of eye fixations in a tea-making task 
 Roland Johansson 2001
 (Psychology study)
 An expriment that analyzed the coordination of gaze behavior and hand movement. They found subjects exclusively fixated certain landmarks critical for the control of the task. They never fixated the hand or the moving bar. The instant that gaze exited a given landmark coincided with a kinematic event at that landmark (reaching the landmark with hand) in a manner suggesting that subjects monitored critical kinematic events for phasic verification of task.
+
+# Eye–hand coordination in a sequential target contact task
+Miles Bowman, R Johansson 2009
+An experiment that investigated the timing of gaze shift relative to hand movement in object manipulation tasks which involve mechanical contact events. They found gaze shifts were predictive/timed/triggered by the tactile feedback related to contact. The mismatch between the expected and actual tactile information will make the gaze fixation longer.
+
+Directing gaze to contact locations  serves two further functions: 
+- It may facilitate the comparison of predicted and actual visual consequences of action. The motor system can monitor task progression and adjust subsequent motor commands if errors are detected. 
+- It allows sensorimotor system to establish and maintain correlations between visual signal and other sensory signal. 
+
+# Eye-hand coordination in rhythmical pointing
+Lazzari 2009
+An experiment that investigated the dynamic coordination of eye movements and hand kinematics in a rhythmical Fitts task. They found that:
+
+1) Informational load, in the form of the ID, is the major influence on hand-movement organization in Fitts’s task, while the experimental manipulation of the necessity for eye movements resulted in small changes only.
+
+2) When MT was short, participants produced less saccades than hand movements, switching from the 1:1 E/H frequency ratio to higher odd ratios such as 1:3 or 1:5. When  MT was long, it allowed the saccadic system to constantly anticipate the future pointing movement so E/H frequecy is lower as 1:1. This suggests that the control of rhythmical aiming may involve two complementary modes of control:
+-  a visually-based mode of control, playing the main part when accuracy need is high and MT is sufficient for saccades execution
+-  a more proprioceptive mode of control, which is dominant when velocity is high and time is short. 
+The limit in the relative dominance of the two modes of control may also be the limit between a precision task and a velocity task.
