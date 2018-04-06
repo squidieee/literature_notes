@@ -1,4 +1,4 @@
-# Exploration and Virtual Camera Control in Virtual Three Dimensional Environments
+﻿# Exploration and Virtual Camera Control in Virtual Three Dimensional Environments
 
 1990 Colin Ware
 
@@ -285,3 +285,6 @@ William Buxton 1986
 
  - One major problem is the cognitive load imposed by remembering the tokens and their orders of a command. The approach is to limit the number of arguments to a command. (eg: 1-step move vs. 2-step copy n' paste)
 - When compound task is necessary, breaks it into sub-tasks. Sub-tasks require the "glue" to tie them together. (eg: select from a pop-up menu = invoke the menu + navigate to select + select, the tension of the finger holding down the button is the "glue" which provides constant feedback that we are in a temporary state.)
+
+# Mental object rotation and the planning of hand movements
+ANDREAS WOHLSCHLÄGER 2001
