@@ -22,7 +22,11 @@
          - Independent variables: viewing condition (2 levels) and rotation angle (3 levels)
          - Dependent variables: error rate and completion time
       3. Possible extraneous factors: 
-      	resolution, latency (we need a way to improve and test the latency), lighting, order of task, registraion error, tracking error (magnetic interference)
+        - Resolution: viewing conditions have the same resolution
+        - Latency (we need a way to estimate and improve the latency)
+        - Lighting
+        - Registration error: Each subject needs to do viewpoint calibration before using 3DPS
+        - Tracking error (magnetic interference): Subjects are not wearing any metal stuff.
   - Participants & Procedure
   - Result
     - Two-way RM ANOVA + pairwise t-test

@@ -275,16 +275,59 @@ These selection techniques were evaluated in terms of accuracy, completion time,
 
 # Perceiving real-world viewpoint changes
 Daniel Simons 1998
-
+(Psychology study)
 A research report on the distinction between object rotations and viewpoint motions. Both object rotations and viewpoint motions generate the same retina image, but this report focuses on distinguishing the mechanisms of object rotations and viewpoint motions. Viewpoint motions potentially provide more information than object orientations, including but not limited to the spatial reference (visual information), vestibular and proprioceptive information. But they did not compare the task performances of object orientation and viewpoint movement conditions. Instead, they compared the effect of changing retina projections in the condition of rotation and movements. They found even when orientation changes and viewpoint changes produced the same changes to the retinal projection, accuracy was disrupted only in the orientation condition, not in the movement condition.
 
-# Chunking and Phrasing and the design of human-computer dialogues
-William Buxton 1986
+# Eye-hand co-ordination with force feedback
+Colin Ware 2000
 
- This paper talks about how to design user interface pragmatics so that we can accelerate the process whereby novices begin to perform like experts. Experts and novices differ in the coarseness of granularity with which they view the constituent elements of a particular problem or task. Novices are attentive to low-level details. With experts, these low-level details can be performed automatically.
+An emprical study that investigates the importance of head coupling and force feedback in conducting Fitts Law Tapping Task. Both of the head-coupling and force feedback have been found to imporve tapping performance by 20%. So skilled designers can take advantage of these tools and improve their working efficiency. 
+Tapping Task has been modified by introducing a "barrier" which forces changes of the head position by leaning to the left/right. 
+Eye-hand coordination is introduced as hand movement controlled with visual feedback and reinforced by hand contact with objects. 
+
+# The importance of stereo and eye coupled perspective for eye-hand coordination in fish tank VR
+Colin Ware 2004
+
+An emprical study that investigates the importance of visual cues in conducting Fitts Law Tapping Task. Stereopsis is found to be more important than motion parallax. 
+Tapping Task has been modified by introducing a "barrier" which forces changes of the head position by leaning to the left/right. 
+Stereopsis is expected to be more important in eye-hand coordination based on previous studies and observations (threading a needle requires steady hands without parallax information).
+
+# The roles of vision and eye movements in the control of activities of daily living
+Michael Land 1999
+(Psychology study)
+An experiment that determines the pattern of eye fixations in a tea-making task in a natural setting. There are four functions of gaze fixation in manipulation task: 
+- locating objects
+- directing the hand/object in hand to contact another object
+- guiding contact between two objects that are approaching one another
+- checking the state of task-related variables
+
+# Eye–Hand Coordination in Object Manipulation
+Roland Johansson 2001
+(Psychology study)
+An expriment that analyzed the coordination of gaze behavior and hand movement. They found subjects exclusively fixated certain landmarks critical for the control of the task. They never fixated the hand or the moving bar. The instant that gaze exited a given landmark coincided with a kinematic event at that landmark (reaching the landmark with hand) in a manner suggesting that subjects monitored critical kinematic events for phasic verification of task.
+
+# Eye–hand coordination in a sequential target contact task
+Miles Bowman, R Johansson 2009
+An experiment that investigated the timing of gaze shift relative to hand movement in object manipulation tasks which involve mechanical contact events. They found gaze shifts were predictive/timed/triggered by the tactile feedback related to contact. The mismatch between the expected and actual tactile information will make the gaze fixation longer.
+
+Directing gaze to contact locations  serves two further functions: 
+- It may facilitate the comparison of predicted and actual visual consequences of action. The motor system can monitor task progression and adjust subsequent motor commands if errors are detected. 
+- It allows sensorimotor system to establish and maintain correlations between visual signal and other sensory signal. 
+
+# Eye-hand coordination in rhythmical pointing
+Lazzari 2009
+An experiment that investigated the dynamic coordination of eye movements and hand kinematics in a rhythmical Fitts task. They found that:
+
+1) Informational load, in the form of the ID, is the major influence on hand-movement organization in Fitts’s task, while the experimental manipulation of the necessity for eye movements resulted in small changes only.
 
  - One major problem is the cognitive load imposed by remembering the tokens and their orders of a command. The approach is to limit the number of arguments to a command. (eg: 1-step move vs. 2-step copy n' paste)
 - When compound task is necessary, breaks it into sub-tasks. Sub-tasks require the "glue" to tie them together. (eg: select from a pop-up menu = invoke the menu + navigate to select + select, the tension of the finger holding down the button is the "glue" which provides constant feedback that we are in a temporary state.)
 
+2) When MT was short, participants produced less saccades than hand movements, switching from the 1:1 E/H frequency ratio to higher odd ratios such as 1:3 or 1:5. When  MT was long, it allowed the saccadic system to constantly anticipate the future pointing movement so E/H frequecy is lower as 1:1. This suggests that the control of rhythmical aiming may involve two complementary modes of control:
+-  a visually-based mode of control, playing the main part when accuracy need is high and MT is sufficient for saccades execution
+-  a more proprioceptive mode of control, which is dominant when velocity is high and time is short. 
+The limit in the relative dominance of the two modes of control may also be the limit between a precision task and a velocity task.
+
 # Mental object rotation and the planning of hand movements
 ANDREAS WOHLSCHLÄGER 2001
+[todo]
