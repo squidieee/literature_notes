@@ -26,3 +26,31 @@ The author's group worked on this topic and found perceived object appeared to b
 Luo2007
 
 Subjects adjusted the size of a virtual bottle at different depth based on a real bottle. Independent variables are context-based depth cues (a table with size familiar to real object rendered in the scene), stereoscopsis and motion parallax. Only motion parallax is found to be non-significant to the user performance. 
+
+# Size-Constancy in the CAVE
+
+Kenyon2007
+
+Size constancy is the phenomenon where an object is perceived as being the same size regardless of the distance from the observer, even if the size of retinal projection shrinks with increasing distance from the observer. Previous studies showed in *real environment* the performance suffers when the number of depth cues is reduced. Subjects adopt a size judgement approach based on the size of retinal projection. That is, instead of perceiving a constant size when changing the viewing distance, the object size appeared to shrink with increasing distance from the observer. Previous studies in the *virtual environment* show no size-constancy. But author thinks this is due to lack of depth cues as the previous work used sparse environment that eliminated surrounding objects which provide cues to the depth.
+
+The paper tried to understand to what extent size-constancy could be experienced in this VE using CAVE. Subjects were tested using a rich environment with a number of surrounding items in the environment accompanied the virtual object, and a sparse environment where no surrounding items were provided and only the virtual object (a coke bottle) was visible. 
+
+Subjects were instructed to adjust the size of bottle based on the size of a real bottle using a wand. They analyzed the ratio between the estimated size and actual size. They found size-constancy was more prevalent when the environment contained objects surrounding the test object in the scene to aid depth perception. Without these surrounding objects,most of the subjects adopted a visual angle (VA) performance when sizing the bottle.
+
+# Evaluating the accuracy of size perception in real and virtual environments
+
+Stefanucci2012
+
+Affordance judgments measure perceived size by assessing what users believe they can or cannot do with objects in virtual environments. They used two affordance judgement tasks for grasping and reaching objects, in two viewing conditions (one real scene with a frame, the other with a fixed viewpoint perspective-corrected screen). For both judgment tasks,they found that users underestimated the size of the objects when judging their action capabilities for the desktop virtual environment in comparison to a real environment.
+
+# Evaluating the accuracy of size perception on screen-based displays: Displayed objects appear smaller than real objects
+
+Stefanucci2015
+
+Same study as above but with stereo: stereo can reduce the effect of smaller real objects.
+
+# Perceiving Layout and Knowing Distances: The integration, relative potency, and Contextual Use of Different Information about Depth
+
+Cutting1995
+
+todo
