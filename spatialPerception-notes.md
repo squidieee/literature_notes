@@ -79,3 +79,11 @@ Kelly2013
 
 They replicated the general methodology of other studies allowing for active visual feedback while walking, but used two measures: blind walking and object size judgments. They found that both distance and size judgments improved linearly to come closer to the intended size/distance, consistent with the earlier work of Mohler et al. (2006) that used distance and verbal reports.
 
+## Recalibration of Perceived Distance in Virtual Environments Occurs Rapidly and Transfers Asymmetrically Across Scale
+
+Kelly2014
+
+This work expands findings from Kelly2014 with the results that walking with continuous visual feedback to close objects (1-2m) led to distance estimates only to close objects, while walking to far objects led to improved estimates for both near and far objects. They also investigated how quickly improvement occurs as a result of walking interaction. They found that five interaction trials resulted in a large improvement in perceived distance, and that subsequent walking interactions showed continued but diminished improvement.
+
+
+
