@@ -85,5 +85,65 @@ Kelly2014
 
 This work expands findings from Kelly2014 with the results that walking with continuous visual feedback to close objects (1-2m) led to distance estimates only to close objects, while walking to far objects led to improved estimates for both near and far objects. They also investigated how quickly improvement occurs as a result of walking interaction. They found that five interaction trials resulted in a large improvement in perceived distance, and that subsequent walking interactions showed continued but diminished improvement.
 
+# Orientation Study
+
+## Rotating Virtual Objects with Real Handles
+
+Colin Ware 1999
+
+This paper conducts a series of experiments that tried to find out why rotating in virtual environment is far slower than it takes to rotate a real object. They find out: 
+
+1. Placing the hand in the same spot as the virtual object appears will improve the task performance.
+2. The result failed to support the idea that it is important for the shape of an object held in the hand to be the same as the shape of the object seen.
+3. The results failed to show an advantage of two handed rotation vs. one handed input.
+4. Whether the object is being rotated to a new, randomly determined orientation will greatly influence the task performance, compared to always rotating to the same position.
+
+Good experiment setup: Look at these experiments setups in details when designing rotation/scaling task.
+
+## Usability analysis of 3D rotation techniques
+
+Hinckley 1997
+
+ They examined the effect of input device shape on object rotation. They compared mouse and a 3 DoF Arcball input. They found that for the orientation matching task used in this experiment, users can take advantage of the integrated degrees of freedom provided by multidimensional input without necessarily sacrificing precision: using multidimensional input, users completed the experimental task up to 36% faster without any statistically detectable loss of accuracy. They also reported detailed observations of common usability problems of the multidimensional input technique.
+
+## Effects of head tracking and stereo on non-isomorphic 3D rotation
+
+LaViola 2008
+[todo]...
+
+## Influence of degrees of freedom's manipulation on performances during orientation tasks in virtual reality environments
+
+Veit 2009
+[todo]...
+
+# Non-Isomorphic 3D Rotational Techniques 
+
+Fels 1998
+
+[todo]
 
 
+## An exploration of non-isomorphic 3D rotation in surround screen virtual environments
+
+LaViola
+
+[todo]
+
+# Docking Study
+
+## Hybridspace: Integrating 3d freehand input and stereo viewing into traditional desktop applications
+
+Grossman 2014
+
+[todo]
+
+## The GlobeFish and the GlobeMouse
+
+[todo]
+
+## Quantifying coordination in multiple DOF movement and its application to evaluating 6 DOF input devices
+
+Zhai 1998
+
+A good paper that measures the coordination of multiple DoF movement when conducting various 3D tasks. 
+[todo]
