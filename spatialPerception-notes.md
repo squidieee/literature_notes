@@ -1,5 +1,15 @@
 # SIZE STUDY
 
+# Towards Quantifying Depth and Size Perception in Virtual Environments
+
+Rolland 1995
+
+This paper examines important parameters within the computational model of stereo viewing. Though the model is for HMD, the analysis can still be quite useful to setup an experiment in assessing the depth/size perception. 
+
+Then they conducted a study with relative depth perception. They found that virtual objects are perceived farther away than real objects. Moreover, no error in either calibration, image generation, or illumination could possibly account for the amplitude of the finding. Those
+
+[Experimental Setup] The task is to judge the proximity in depth of a virtual object with respect to that of a physical object presented simultaneously. There are three conditions for the objects: both objects were real, virtual, or one was real and the other one was virtual. One of the objects was always fixed in location, and the other was moved in depth between trials. The screens displaying the virtual objects and the real objects were blanked for a few seconds between trials. Subjects performed a 2-alternative force choice task. They were asked to answer (via a key press) if the object on the right (the one translated in depth between trials), was closer or farther than the object on the left.
+
 ## Perceiving absolute scale in virtual environments: How theory and application have mutually informed the role of body-based perception
 
 Stefanucci 2015
@@ -104,12 +114,16 @@ Good experiment setup: Look at these experiments setups in details when designin
 
 Hinckley 1997
 
- They examined the effect of input device shape on object rotation. They compared mouse and a 3 DoF Arcball input. They found that for the orientation matching task used in this experiment, users can take advantage of the integrated degrees of freedom provided by multidimensional input without necessarily sacrificing precision: using multidimensional input, users completed the experimental task up to 36% faster without any statistically detectable loss of accuracy. They also reported detailed observations of common usability problems of the multidimensional input technique.
+ They examined the effect of input device shape on object rotation. They compared mouse and a 3 DoF Arcball input. Test users rotated the house model on the right side of the screen to match the orientation shown at the left. After each trial, performance was rated as "Excellent!" (shortest-arc rotation less than 5.7 degrees), "Good Match!" (less than 7.6 degrees), or "Not good enough, try harder next time." The main motivation for this rating system was to encourage subjects to achieve a high level of accuracy. 
+
+They found that for the orientation matching task used in this experiment, users can take advantage of the integrated degrees of freedom provided by multidimensional input without necessarily sacrificing precision: using multidimensional input, users completed the experimental task up to 36% faster without any statistically detectable loss of accuracy. They also reported detailed observations of common usability problems of the multidimensional input technique. 
 
 ## Effects of head tracking and stereo on non-isomorphic 3D rotation
 
 LaViola 2008
-[todo]...
+An experimental study that explores how head tracking and stereo affect user performance when rotating 3D virtual objects using isomorphic and non-isomorphic rotation techniques. Subjects performed the rotation task with significantly less error with head tracking/stereo and no head tracking/stereo than with no head tracking/no stereo, regardless of rotation technique. They used a solid shaded 3D model of a house from a randomly generated orientation into a target orientation. It is not quite clear how they indicated the target orientation with the stimulus.They measured the completion time when the orientation error was below a threshold, the house would immediately disappear and reappear in a new random orientation, indicating that the trial had been accomplished.
+
+
 
 ## Influence of degrees of freedom's manipulation on performances during orientation tasks in virtual reality environments
 
