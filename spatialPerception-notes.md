@@ -123,14 +123,9 @@ They found that for the orientation matching task used in this experiment, users
 LaViola 2008
 An experimental study that explores how head tracking and stereo affect user performance when rotating 3D virtual objects using isomorphic and non-isomorphic rotation techniques. Subjects performed the rotation task with significantly less error with head tracking/stereo and no head tracking/stereo than with no head tracking/no stereo, regardless of rotation technique. They used a solid shaded 3D model of a house from a randomly generated orientation into a target orientation. It is not quite clear how they indicated the target orientation with the stimulus.They measured the completion time when the orientation error was below a threshold, the house would immediately disappear and reappear in a new random orientation, indicating that the trial had been accomplished.
 
+# Unclassified: todo
 
-
-## Influence of degrees of freedom's manipulation on performances during orientation tasks in virtual reality environments
-
-Veit 2009
-[todo]...
-
-# Non-Isomorphic 3D Rotational Techniques 
+## Non-Isomorphic 3D Rotational Techniques 
 
 Fels 1998
 
@@ -154,6 +149,12 @@ Grossman 2014
 ## The GlobeFish and the GlobeMouse
 
 [todo]
+
+
+## Influence of degrees of freedom's manipulation on performances during orientation tasks in virtual reality environments
+
+Veit 2009
+[todo]...
 
 ## Quantifying coordination in multiple DOF movement and its application to evaluating 6 DOF input devices
 
