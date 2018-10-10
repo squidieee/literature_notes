@@ -1,4 +1,6 @@
-# Two-hand Coordination: Virtual Surgery Track (Laparoscopic task, Neurosurgery task)
+# Two-hand Pointing
+
+todo: virtual surgery studies.
 
 # Two-Hand Coordination: Psychology Track
 
@@ -21,10 +23,32 @@ Details of more measurement data using correlation and TOT can be found in follo
 *Investigating Coordination in Multidegree of Freedom Control II: Correlation Analysis in 6 Dof Tracking*
 Zhai 1997
 
-In this experiment, author used the effciency measurement rather than STOT and correlation. They claimed although effciency measure was sensitive enough to reveal performance differences, this is not necessary the only “correct” measure to quantify coordination in multiple DoF tasks. 
+In this experiment, author used the efficiency measurement rather than STOT and correlation. They claimed although efficiency measure was sensitive enough to reveal performance differences, this is not necessary the only “correct” measure to quantify coordination in multiple DoF tasks. 
+
+This efficiency measure does not provide any numerical value to represent the simultaneous coordination of the translation and rotation DOF. It provides a global measure of the coordination but not local simultaneous coordination. 
 
 ## Influence of degrees of freedom's manipulation on performances during orientation tasks in virtual reality environments
 
 Veit 2009
-[todo]...
 
+This paper investigates the influence of the integration and separation of DoFs on the users’ performances during 3D orientation tasks. They believe in certain situations of interaction, reducing the number of DoF simultaneously manipulated may lead to better performances. 
+
+ They proposed a new metric which can measure the number of DoF simultaneously manipulated during an orientation task. It's called MDS (Magnitude of DOF’s Separation) measurement defined as:
+
+MDSi = (|Vx −Vy|+|Vx −Vz|+|Vy −Vz|)/ 2 / (Vx + Vy + Vz)
+
+By dividing time into small segments, they computed velocity for each axis for ti ~ ti+1. Then MDSi is 1 if only one axis is moving and 0 if all axis are moving with the same magnitude.
+
+In the experiment, they used a set of performance metrics as well as the coordination metric MDS to analyze user's task performance, including:
+
+- Performance metrics:
+
+  - Angular difference: final orientation between target and manipulated object
+  - Completion Time
+  - Coarse completion time: first time the difference is smaller than 20 degree
+  - Fine completion time: first time the difference is smaller than 10 degree
+
+- Coordination metric: MDS
+
+They found 50% of the time, users manipulates only two DOF at the same time, suggesting that during the orientation task, the users are only able to partially integrate the manipulation of all the DOF at the same time. One possible explanation is that because of the task complexity and the user’s incapacity to find the optimal path toward the target, they may try to decompose the task into more simple orientations. 
+They also found that when providing a multi-DoF and a single-DoF interaction technique, the performance data is better with single-DoF technique.
