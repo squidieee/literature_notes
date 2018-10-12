@@ -1,6 +1,28 @@
 # Two-hand Pointing
 
-todo: virtual surgery studies.
+## iSith-Intersection-Based Spatial Interaction for Two Hands
+
+Wyss 2006
+
+[todo]
+
+## Symmetric bimanual interaction
+
+Balakrishnan 2000
+
+This paper investigates factors that may influence symmetric bimanual interaction performance, including visual integration, distance between targets and tracking speed. They used a bimanual symmetric tracking task that requires users to (i) track two separate objects simultaneously with two cursors controlled by two hands and (ii) track one integrated object with one cursor controlled by two hands together. The task is slightly from pointing since the visual stimulus of target were presented continuously, rather than one after another in Fitts Law. 
+
+They claimed different definitions of *parallelism* and *symmetry* for bimanual performance. Performance could be parallel (occur simultaneously) and yet asymmetric in terms of error and time measures. They also proposed a new metric a new metric to quantify the degree of parallelism by taking the ratio of the two hand’s m-metric derived from Masliah's multi-DoF metric. They found even when users are given a task with identical, symmetric role assignments for each hand, they do not always perform the task in a parallel, symmetric manner.
+
+
+
+## A haptic interface for two-handed 6DOF manipulation-SPIDAR-G&G system
+
+Murayama 2004
+
+This paper presents a bi-manual haptic system in VE. They used a bimanual manipulation task which used non-dominant hand to grab the object and dominant hand to point the target on the object, essentially an asymmetric bimanual pointing task. They measure completion time to evaluate their system and compared to an uni-manual condition. 
+
+Good asymmetric bimanual task. Adding more metrics to this task may help to understand the asymmetric nature of bimanual interaction.
 
 # Two-Hand Coordination: Psychology Track
 
