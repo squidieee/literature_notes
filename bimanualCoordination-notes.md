@@ -4,7 +4,9 @@
 
 Wyss 2006
 
-[todo]
+As an early work of bimanual pointing, this paper  introduced a concept of bimanual pointing for object selection and manipulation using two rays from two hand. It did not have an evaluation but just introducing of the concept.
+
+
 
 ## Symmetric bimanual interaction
 
@@ -20,13 +22,61 @@ They claimed different definitions of *parallelism* and *symmetry* for bimanual 
 
 Murayama 2004
 
-This paper presents a bi-manual haptic system in VE. They used a bimanual manipulation task which used non-dominant hand to grab the object and dominant hand to point the target on the object, essentially an asymmetric bimanual pointing task. They measure completion time to evaluate their system and compared to an uni-manual condition. 
+This paper presents a bi-manual haptic system in VE. They used a bimanual manipulation task which used non-dominant hand to grab the object and dominant hand to point to the target on the object, essentially an asymmetric bimanual pointing task. They measure completion time to evaluate their system and compared to an uni-manual condition. 
 
 Good asymmetric bimanual task. Adding more metrics to this task may help to understand the asymmetric nature of bimanual interaction.
 
+
+
+# Two-hand Selection
+
+## Selection performance based on classes of bimanual actions
+
+Ulinski 2009 
+
+A technical report on bimanual selection. They compare four selection strategies regarding symmetric and synchronous conditions. They found that 
+
+- Symmetric-synchronous technique was found to allow significantly faster completion time than any other techniques.
+
+- No differences for accuracy was found between any of the four selection techniques.
+
+- No class of bimanual selection was a significant contributor to reduce or increase Physical Load for experienced users. 
+
+- Asynchronous action significantly increases Mental Load, especially when coupled with asymmetric interaction.
+
+- Symmetric with Asynchronous interactions are less natural to use with significantly less ease of use.
+
+
+## Two handed selection techniques for volumetric data
+
+Ulinski 2007
+
+Three distinct two-handed selection techniques for volumetric data have been developed. They are all based on a selection box for gross selection: Hand-On-Cornder, Hand-In-Middle and Two-Corners. 
+
+These selection techniques were evaluated in terms of accuracy, completion time, ease of use, physical workload and ease of learning. They found the Two-Corner (TC) approach performs selection with the most accuracy at the cost of staticsically significant amount of arm strain. They concluded the symmetric property makes TC method outperform others which are asymmetric. 
+
+*Their Conclusion on symmetric property may be biased given that the box shape is symmetric. Selection techniques use other geometric primitives may have different conclusions.*
+*Their evaluation setup is worth learning.*
+
+
+
 # Two-Hand Coordination: Psychology Track
 
-# Multi-degree Input Coordination: HCI Track 
+## Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model
+
+Guiard 1987
+
+One of the most influential paper on the theoretical foundation of bimanual interaction. It provides three high-order principles that appear to determine the asymmetry of human bimanual gestures. The three principles are:
+
+- The non-dominant hand defines the spatial reference to the dominant hand. It contributes an important stabilizing action to the achievement of the global act. 
+- The non-dominant and dominant hand has contrast in the spatial-temporal scale of motion: fine motion with right-hand and coarse motion with left-hand.
+- Non-dominant hand initializes the action earlier than that of the dominant hand.
+
+Some experiments have been conducted to support these principles as evidence, as well as some observations of activities like writing and golfing. 
+
+
+
+# Multi-degree Input Coordination Measurement
 
 ## Quantifying coordination in multiple DOF movement and its application to evaluating 6 DOF input devices
 Zhai 1998
@@ -74,3 +124,10 @@ In the experiment, they used a set of performance metrics as well as the coordin
 
 They found 50% of the time, users manipulates only two DOF at the same time, suggesting that during the orientation task, the users are only able to partially integrate the manipulation of all the DOF at the same time. One possible explanation is that because of the task complexity and the user’s incapacity to find the optimal path toward the target, they may try to decompose the task into more simple orientations. 
 They also found that when providing a multi-DoF and a single-DoF interaction technique, the performance data is better with single-DoF technique.
+
+
+## Measuring the allocation of control in a 6 degree-of-freedom docking experiment
+
+Masliah 2000
+
+[todo]
