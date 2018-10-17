@@ -26,7 +26,19 @@ This paper presents a bi-manual haptic system in VE. They used a bimanual manipu
 
 Good asymmetric bimanual task. Adding more metrics to this task may help to understand the asymmetric nature of bimanual interaction.
 
+## Influence of the bimanual frame of reference with haptics for unimanual interaction tasks in virtual environments
 
+Ullrich 2011
+
+They evaluate if Guiard’s theory of the bimanual frame of reference can be applied to interaction tasks in virtual environments (VE) with haptic rendering. Two conditions, one unimanual and bimanual, are used in the study. They applied an asymmetric bimanual insertion task. Non-dominant hand first touch to select, then dominant hand used a probe to insert into the target, similar to the peg-in-hole task. They observed whether users moved their non-dominant hands during the study.
+
+They found that:
+
+- Task completion times are significantly lower in the bimanual condition compared to the unimanual case, without significant impact on overall precision. Furthermore, the bimanual condition shows better mean accuracy over several measures, e.g., lateral displacement and penetration depth. 
+- Participants with experience in performing medical procedures did not outperform the other participants
+- They observed that several subjects actively used head tracking to get a better view. Consequently, they achieved better average results.
+
+Their task is generic but derived from medical applications, quite similar to Hoffmann's peg-in-hole study. The bimanual movement is asynchronized and asymmetric. The data analysisi is mainly about performance (completion time and error). 
 
 # Two-hand Selection
 
