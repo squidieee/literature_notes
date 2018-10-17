@@ -74,6 +74,51 @@ One of the most influential paper on the theoretical foundation of bimanual inte
 
 Some experiments have been conducted to support these principles as evidence, as well as some observations of activities like writing and golfing. 
 
+## Effects of task characteristics on unimanual and bimanual movement times
+
+Srinivasan 2013
+
+This paper provides preliminary study to model bimanual Fitts Law in real world. They used a bimanual object transfer task to investigate how the size and tolerance of transferred object can influence task performance. In the task, subjects grab two objects with left and right hand and move them to two target locations. The operation is symmetric and independent for each hand. They measured each hand's MT in unimanual and bimanual conditions and compared them to see how bimanual operation can affect ID and MT.
+
+They found:
+
+- Bimanual tasks always started simultaneously, and the primary hand completed its motion with the same duration that would be expected for a unimanual task under the same conditions. The secondary hand movement duration, however, was dependent both on its own task, as well as the primary hand’s task demand. (Primary hand = hand first completed the task, not necessary to be dominant hand)
+
+- The subjects almost always chose the left, slower hand as the primary hand when the tasks were symmetric. When tasks were asymmetric, the left hand was still chosen more often as the primary hand than the right.
+
+Their study indicates:
+
+- Modelling bimanual pointing requires detailed understanding of the *vision requirement* of the task, eg the distance between targets.
+
+- *Hand synchronization is lost whenever one of the tasks is too difficult for the two tasks to be accomplished simultaneously*. If the two targets are high-precision targets, the task completions are sequenced, with the slower (non-preferred hand) generally finishing first, and the total task time extended as a result. This effect scales with the distance separating the two targets.
+
+The study provides good real-world observations for developing bimanual interaction techniques as well as bimanual tasks.
+
+
+
+## Bimanual and Unimanual Convergent Goal-Directed Movement Times
+
+Hoffmann 2015
+
+This paper compares the performance of unimanual and bimanual movement time using Fitts Law. They aimed at providing convergent bimanual data that can help to model bimanual pointing. 
+
+They used three tasks, each has four conditions. The four conditions are: 
+
+- (one-hand movement with probe in preferred hand)
+- (one-hand movement with probe in non-preferred hand)
+- (two-hand movement with probe in preferred hand)
+- (two-hand movement with probe in non-preferred hand)
+
+Three tasks are:
+- Bimanual Fitts Law Task: notice this is not a symmetric task as one hand holds the context with the other hand pointing to the target.
+- Peg-in-hole: similar to fitts law task, but it requires the probe inserted into the hole.
+- Low ID tasks: same as previous two, but with low ID.
+
+They found:
+- The effects of using one or two hands for movements are generally not large. 
+- In Fitts’ task and peg-in-hole,, 2-hand movements were faster than 1 hand only at higher IDs.
+
+This paper also has interesting discussion on the divergent vs convergent bimanual movements. It is believed that the divergent bimanual movement caused divergent attention assigned to each hand so Fitts' Law does not model it well. For convergent movement, it fits better with Fitts' Law but still some there is still some divergency from model. It may be due to that tremor effect is amplified in single-hand condition. 
 
 
 # Multi-degree Input Coordination Measurement
