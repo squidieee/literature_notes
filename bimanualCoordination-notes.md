@@ -6,8 +6,6 @@ Wyss 2006
 
 As an early work of bimanual pointing, this paper  introduced a concept of bimanual pointing for object selection and manipulation using two rays from two hand. It did not have an evaluation but just introducing of the concept.
 
-
-
 ## Symmetric bimanual interaction
 
 Balakrishnan 2000
@@ -15,8 +13,6 @@ Balakrishnan 2000
 This paper investigates factors that may influence symmetric bimanual interaction performance, including visual integration, distance between targets and tracking speed. They used a bimanual symmetric tracking task that requires users to (i) track two separate objects simultaneously with two cursors controlled by two hands and (ii) track one integrated object with one cursor controlled by two hands together. The task is slightly from pointing since the visual stimulus of target were presented continuously, rather than one after another in Fitts Law. 
 
 They claimed different definitions of *parallelism* and *symmetry* for bimanual performance. Performance could be parallel (occur simultaneously) and yet asymmetric in terms of error and time measures. They also proposed a new metric a new metric to quantify the degree of parallelism by taking the ratio of the two hand’s m-metric derived from Masliah's multi-DoF metric. They found even when users are given a task with identical, symmetric role assignments for each hand, they do not always perform the task in a parallel, symmetric manner.
-
-
 
 ## A haptic interface for two-handed 6DOF manipulation-SPIDAR-G&G system
 
@@ -39,6 +35,10 @@ They found that:
 - They observed that several subjects actively used head tracking to get a better view. Consequently, they achieved better average results.
 
 Their task is generic but derived from medical applications, quite similar to Hoffmann's peg-in-hole study. The bimanual movement is asynchronized and asymmetric. The data analysisi is mainly about performance (completion time and error). 
+
+## A survey on bimanual haptic interaction
+
+TODO
 
 # Two-hand Selection
 
@@ -70,15 +70,13 @@ These selection techniques were evaluated in terms of accuracy, completion time,
 *Their Conclusion on symmetric property may be biased given that the box shape is symmetric. Selection techniques use other geometric primitives may have different conclusions.*
 *Their evaluation setup is worth learning.*
 
-
-
 # Two-Hand Coordination: Psychology Track
 
 ## Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model
 
 Guiard 1987
 
-One of the most influential paper on the theoretical foundation of bimanual interaction. It provides three high-order principles that appear to determine the asymmetry of human bimanual gestures. The three principles are:
+One of the most influential paper on the theoretical foundation of bimanual interaction. It provides three high-order principles that appear to determine the **asymmetry of human bimanual gestures**. The three principles are:
 
 - The non-dominant hand defines the spatial reference to the dominant hand. It contributes an important stabilizing action to the achievement of the global act. 
 - The non-dominant and dominant hand has contrast in the spatial-temporal scale of motion: fine motion with right-hand and coarse motion with left-hand.
@@ -86,11 +84,19 @@ One of the most influential paper on the theoretical foundation of bimanual inte
 
 Some experiments have been conducted to support these principles as evidence, as well as some observations of activities like writing and golfing. 
 
+## Cooperative Bimanual Action
+
+Hinckley 1997
+
+This paper presented an experiment on cooperative **asymmetric bimanual action**. 
+
+They found that: for easy tasks, there is little asymmetry of the hands, while harder tasks, notably requiring more precision, induce a stronger specialization of the hands, meaning that they take more specific, non-interchangeable roles
+
 ## Effects of task characteristics on unimanual and bimanual movement times
 
 Srinivasan 2013
 
-This paper provides preliminary study to model bimanual Fitts Law in real world. They used a bimanual object transfer task to investigate how the size and tolerance of transferred object can influence task performance. In the task, subjects grab two objects with left and right hand and move them to two target locations. The operation is symmetric and independent for each hand. They measured each hand's MT in unimanual and bimanual conditions and compared them to see how bimanual operation can affect ID and MT.
+This paper provides preliminary study to model bimanual Fitts Law in real world. They used a bimanual object transfer task to investigate how the size and tolerance of transferred object can influence task performance. In the task, subjects grab two objects with left and right hand and move them to two target locations. The operation is **symmetric and independent for each hand**. They measured each hand's MT in unimanual and bimanual conditions and compared them to see how bimanual operation can affect ID and MT.
 
 They found:
 
@@ -106,8 +112,6 @@ Their study indicates:
 
 The study provides good real-world observations for developing bimanual interaction techniques as well as bimanual tasks.
 
-
-
 ## Bimanual and Unimanual Convergent Goal-Directed Movement Times
 
 Hoffmann 2015
@@ -122,7 +126,7 @@ They used three tasks, each has four conditions. The four conditions are:
 - (two-hand movement with probe in non-preferred hand)
 
 Three tasks are:
-- Bimanual Fitts Law Task: notice this is not a symmetric task as one hand holds the context with the other hand pointing to the target.
+- Bimanual Fitts Law Task: notice this is **asymmetric task** as one hand holds the context with the other hand pointing to the target.
 - Peg-in-hole: similar to fitts law task, but it requires the probe inserted into the hole.
 - Low ID tasks: same as previous two, but with low ID.
 
