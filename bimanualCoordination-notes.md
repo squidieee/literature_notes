@@ -20,13 +20,13 @@ Murayama 2004
 
 This paper presents a bi-manual haptic system in VE. They used a bimanual manipulation task which used non-dominant hand to grab the object and dominant hand to point to the target on the object, essentially an asymmetric bimanual pointing task. They measure completion time to evaluate their system and compared to an uni-manual condition. 
 
-Good asymmetric bimanual task. Adding more metrics to this task may help to understand the asymmetric nature of bimanual interaction.
+Good **asymmetric bimanual task**. Adding more metrics to this task may help to understand the asymmetric nature of bimanual interaction.
 
 ## Influence of the bimanual frame of reference with haptics for unimanual interaction tasks in virtual environments
 
 Ullrich 2011
 
-They evaluate if Guiard’s theory of the bimanual frame of reference can be applied to interaction tasks in virtual environments (VE) with haptic rendering. Two conditions, one unimanual and bimanual, are used in the study. They applied an asymmetric bimanual insertion task. Non-dominant hand first touch to select, then dominant hand used a probe to insert into the target, similar to the peg-in-hole task. They observed whether users moved their non-dominant hands during the study.
+They evaluate if Guiard’s theory of the bimanual frame of reference can be applied to interaction tasks in virtual environments (VE) with haptic rendering. Two conditions, one unimanual and bimanual, are used in the study. They applied an **asymmetric bimanual insertion task**. Non-dominant hand first touch to select, then dominant hand used a probe to insert into the target, similar to the peg-in-hole task. They observed whether users moved their non-dominant hands during the study.
 
 They found that:
 
@@ -34,7 +34,7 @@ They found that:
 - Participants with experience in performing medical procedures did not outperform the other participants
 - They observed that several subjects actively used head tracking to get a better view. Consequently, they achieved better average results.
 
-Their task is generic but derived from medical applications, quite similar to Hoffmann's peg-in-hole study. The bimanual movement is asynchronized and asymmetric. The data analysisi is mainly about performance (completion time and error). 
+Their task is generic but derived from medical applications, quite similar to Hoffmann's peg-in-hole study. The bimanual movement is asynchronized and asymmetric. The data analysis is mainly about performance (completion time and error). 
 
 ## A survey on bimanual haptic interaction
 
@@ -132,7 +132,7 @@ Three tasks are:
 
 They found:
 - The effects of using one or two hands for movements are generally not large. 
-- In Fitts’ task and peg-in-hole,, 2-hand movements were faster than 1 hand only at higher IDs.
+- In Fitts’ task and peg-in-hole, 2-hand movements were faster than 1 hand only at higher IDs.
 
 This paper also has interesting discussion on the divergent vs convergent bimanual movements. It is believed that the divergent bimanual movement caused divergent attention assigned to each hand so Fitts' Law does not model it well. For convergent movement, it fits better with Fitts' Law but still some there is still some divergency from model. It may be due to that tremor effect is amplified in single-hand condition. 
 
