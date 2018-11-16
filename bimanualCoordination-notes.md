@@ -79,10 +79,13 @@ Guiard 1987
 One of the most influential paper on the theoretical foundation of bimanual interaction. It provides three high-order principles that appear to determine the **asymmetry of human bimanual gestures**. The three principles are:
 
 - The non-dominant hand defines the spatial reference to the dominant hand. It contributes an important stabilizing action to the achievement of the global act. 
-- The non-dominant and dominant hand has contrast in the spatial-temporal scale of motion: fine motion with right-hand and coarse motion with left-hand.
+- The non-dominant and dominant hand has contrast in the spatial-temporal scale of motion: fine motion with right-hand and coarse motion with left-hand.It conforms to the requirements of gestures with stabilization on one side and manipulation on the other. 
 - Non-dominant hand initializes the action earlier than that of the dominant hand.
 
-Some experiments have been conducted to support these principles as evidence, as well as some observations of activities like writing and golfing. 
+How did they analyze the asymmetric division nature?
+1. Think the problem in a way that the *asymmetry characterizing the manual gestures* of humans reflects the *assignment of different roles to two hands*, rather than a preference to one hand.
+2. The author models two hands as two separate motors that takes position as input and output modified position of object. These two motors connect to each other in a serial way: one after another. The serial connection can explain the three high-level principles: left hand moves first; left hand has lower temporal/spatial resolutions (lower information rate) than right hand; left hand is the context of right hand.
+
 
 ## Cooperative Bimanual Action
 
