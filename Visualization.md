@@ -1,45 +1,3 @@
-# Chunking and Phrasing and the design of human-computer dialogues
-
-William Buxton 1986
-
- This paper talks about how to design user interface pragmatics so that we can accelerate the process whereby novices begin to perform like experts. Experts and novices differ in the coarseness of granularity with which they view the constituent elements of a particular problem or task. Novices are attentive to low-level details. With experts, these low-level details can be performed automatically.
-
-- One major problem is the cognitive load imposed by remembering the tokens and their orders of a command. The approach is to limit the number of arguments to a command. (eg: 1-step move vs. 2-step copy n' paste)
-- When compound task is necessary, breaks it into sub-tasks. Sub-tasks require the "glue" to tie them together. (eg: select from a pop-up menu = invoke the menu + navigate to select + select, the tension of the finger holding down the button is the "glue" which provides constant feedback that we are in a temporary state.)
-
-# User studies and Usability Evaluations: From Research to Products
-
-I. Scott Kackenzie 2015
-
-- **What is Research**	Three definition of research:
-  - careful search
-  - collecting information about a particular subject
-  - push the frontier in light of new facts
-- **Categorization of Research** Three categories of research methods:
-  - Observations study: 
-    - Qualitative, rather than quantitative
-    - Focus on *why or how*, as opposed to *what, where or when*
-    - Goal is to understand human thoughts, feelings, attitude, emotion, passion, sensation, reflection, expression, mood, outlook, opinion, manner, style, approach, strategy...
-    - Methods include: field study, expert reviews, contextual inquiries, interviews, case studies, focus groups, think aloud protocols, walkthroughs...
-    - Studied in a natural setting, as opposed to constrained and artificial setting
-    - **Usability Evaluation** is an example of observational method.
-  - Experimental method:
-    - Include independent and dependent variables
-    - Controlled methodology brings prevision
-    - **User Study** is an experiment with human subjects.
-  - Correlational research:
-    - Looking for relationships between variables
-    - Quantitative
-    - Provide a balance between relevance and precision
-- Internal Validity & External Validity:
-  - Interval validity: outcomes observed in the study really exist
-  - External validity: outcomes observed are broadly applicable to other people
-  - **User Study** focuses on Internal validity while **Usability Evaluation** focuses on External validity
-- Difference between **User Study** and **Usability Evaluation**
-  - User Study is performed early after research but before engineering and design; Usability evaluation is performed late (on a prototype) after engineering and design but before product release.
-  - User Study is controlled with independent variables; Usability Evaluation is observational without a particular independent variable.
-  - User Study has low-level details. The task is constrained to avoid extraneous influences and to provide capability to distinguish the levels of independent variables. Usability Evaluation is high-level. The task is natural and unconstrained. The goal is to reflect how end-user interacts with the UI and uncover potential problems.
-
 # Human factors in visualization research
 
 Melanie Tory 2004
@@ -124,6 +82,42 @@ Cognition and perception theories can help designers find faults in current syst
 Most visualization systems are designed so that humans and computers can cooperate, each performing the tasks they do best. Computers can easily store and display data, but humans are better at interpreting data and making decisions. Although this idea is very useful, it is possible for computers to play a more active role in the visualization process than simply presenting data and providing an interface for data manipulation.
 
 
+# Visual Information in Surface and Depth Perception: Reconciling Pictures and Reality
+
+Vishwanath2010
+
+A chapter in the vision science book "*Perception beyond inference: The information content of visual processes*". It discusses: 
+(1) why do we see depth in pictures even when the predominance of visual information suggests otherwise?
+(2) why does pictorial depth appear qualitatively different from "real" depth.
+
+It makes following interesting points:
+- The perception of relative depth (depth order, surface slant, 3D shape) and the perception of absolute depth (egocentrically scaled depth separation) are dissociable and distinct.
+- The perceltual vividness of depth under binocular viewing (plastic effect) is not an epiphenomenon resulting from stereoscopic depth processing.
+
+**How to Model the Cue Combination**
+The Cue combination is presented as Bayesian-inference framework, where percepved scene interpretation (S) is that with the highest posterior probability given the sensory image (Image): 
+P(S | Image) = P(Image | S) * P(S) / P(Image)
+
+In words, the probablitity of the scene interpretation given the sensory image is proportional to the probability of the image given the interpretation multiplied by the prior probability of such scenes in the world: the more frequent a person received an image given such interpretation in the past -> the more likely they will interpretate the current image in that way. 
+
+if we consider the image as a set of statistically indepedent image cues (texturem, shading etc), the model can be written as:
+P(S | Image) ~ P(Cue1 | S) * P(Cue2 | S) * P(Cue3 | S) ... P(S)
+
+In the modal priors approach, the ratio of probabilities for the scene interpretation S to the probablities of the complement of S, indicated as !S (all interpretations other than S):
+P(S3d | Image) / P(!S3d | Image) = P(Image | S3d) * P(S3d) / (P(Image | !S3d) * P(!S3d))
+
+The interpretation selected by the visual system should therefore be the one with the highest posterior ratio. This indicates: if we have a particular image measure or cue that we believe the visual systems uses to make interpretations, the measured values or resolution of that cue obtained in the image must be as high as the real world to garrantee the interpratation. 
+
+**Exocentric and Egocentric Depth are distinct**
+The relative depth information mostly obtains in both pictorial and real objects. It is the egocentric depth that is missing from the 2D picture. The author believes the plastic effect is linked to the egocentric distance infornation. 
+
+**Realism and Absolute Depth**
+The plastic effect is in essnece the qualitiative perceptual experience that makes objects appear "real", "touchable or graspable", and where one feels a visual "immersion"  and "embodiment" in space. Each of theses experiences is crucially linked to the vivid sense that we can successfully interact with the object through motor actions. Successful motor interactions has a singular prerequisite: reliable *egocentrically defined perceptual estimates of spatial properties* such as distance, direction and size. 
+
+**Duality of Picturial and Real Depth**
+The fact that the plastic effect appears dissociable from the perception of 3D surface structure supports the notion that there are two ways in which we can experience the depth: not the pictorial and real space, but rather between relative and egocentric depth. 
+
 
 # A characterization of the scientific data analysis process
 
+todo
