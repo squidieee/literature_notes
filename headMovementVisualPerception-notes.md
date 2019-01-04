@@ -46,6 +46,6 @@ The second experiment examined a variety of motion cues provided by head-couplin
 
 Kongsilp 2017
 
-Since one of the most important aspects of a FTVR system is how well it provides a sense of presence to users, they present a study that explores the role of motion parallax when combined with stereopsis in a FTVR system. They measured fatigue and subjective perception of presence using standard questionnaires. They found that users receiving both cues have lower visual fatigue and higher ratings for presence than those receiving stereo cues only.
+Since one of the most important aspects of a FTVR system is how well it provides a sense of presence to users, they present a study that explores the role of motion parallax when combined with stereopsis in a FTVR system. They measured fatigue and **subjective perception of presence using standard questionnaires**. They found that users receiving both cues have lower visual fatigue and higher ratings for presence than those receiving stereo cues only.
 
 

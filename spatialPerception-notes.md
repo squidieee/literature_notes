@@ -1,3 +1,24 @@
+# Duality of Depth Perception
+
+## Visual Information in Surface and Depth Perception: Reconciling Pictures and Reality
+
+Vishwanath 2010
+
+A good chapter discusses how we see 3D in 2D pictures and how it is different from real 3D object. Author claims that the feeling of realism is associated with the existence of egocentric depth perception. The reason we see picture lack of true vivid depth is due to the absence of the egocentric depth perception. The duality of pictorial and real depth is in essence due to the distinction between relative and egocentrically scaled depth.
+
+# Space Perception
+
+Ware 2007
+
+"To some extent, we have a choice between accurately judging the size of a depicted object as though it exists in a 3D
+space and accurately judging its size on the picture plane (Hagen, 1974). The amount and effectiveness of the depth cues used will, to some extent, make it easy to see in one mode or the other."
+
+# Dyadic Projected Spatial Augmented Reality
+
+Benko 2014
+
+A two-person projector-based immersive display that supports mono views and dyadic interactions. They have an interesting experiment that evaluates "object presence" presented by their display. They examined whether the participants can perceive projected virtual objects as spatial rather than appearing only at the projection surface (projected), and what factors affect their perception. They found while users are able to perform much better than chance on determining object size and distance in a controlled setting, subjects clearly performed worse at this task than if real objects were presented. Interacting directly with a virtual object lends a stronger sense of the position and size of the object (affordance) and watching the other user hold the object similarly helps (social cue).
+
 # SIZE STUDY
 
 # Towards Quantifying Depth and Size Perception in Virtual Environments
