@@ -116,6 +116,14 @@ Kelly2014
 
 This work expands findings from Kelly2014 with the results that walking with continuous visual feedback to close objects (1-2m) led to distance estimates only to close objects, while walking to far objects led to improved estimates for both near and far objects. They also investigated how quickly improvement occurs as a result of walking interaction. They found that five interaction trials resulted in a large improvement in perceived distance, and that subsequent walking interactions showed continued but diminished improvement.
 
+# Mitigating Incorrect Perception of Distance in Virtual Reality through Personalized Rendering Manipulation
+
+Ponto 2019
+
+This work seeks to reduce the effect of the depth-underestimation in VR by customized warping the distance. They first measured the depth error using a blink throwing task. They applied the warping using two models: both with a linear multiplier and one with an additional offset. Then they used three tasks: the same blind-throwing task, a size-matching task and a plank-orientation task to evaluate the warping in four viewing conditions: real, virtual-no warping, virtual-warping, and virtual-warping-offset. They found the virtual-warping-offset over-corrected the depth hence has the worst performance. The virtual-warping then has a better performance than no-warping. Still the real viewing condition is the best.
+
+The idea behind the paper is useful and interesting: if there is systematic depth underestimation anyway, why not adjust rendering to correct it. However, using blind throwing task to measure the degree of warping does not seem to be reliable enough as throwing task itself introduces error caused by action of throwing. Furthermore, the warping only has linear model alternatives. It is not that clear why only linear models are chosen. From the result, the warping seems to be a non-linear function influenced by the distance, which is probably their future work that will address it.
+
 # Orientation Study
 
 ## Rotating Virtual Objects with Real Handles
