@@ -90,6 +90,22 @@ todo
 
 # DISTANCE STUDY
 
+## Virtual Objects Look Farther on the Sides: The Anisotropy of Distance Perception in Virtual Reality
+
+Peillard 2019
+
+Through a series of experiments (n=85), they found that objects placed on the sides are systematically perceived farther away than objects in front. The task throughout the study is the same: to judge the relative the difference between two virtual balls. The pair of balls is located in front of or on the side of the viewer. They have a very good design of experiments:
+
+- The first study shows the objects on the side or in front of the viewer will cause different performance of discrimination. 
+
+- The second study further investigate this effect by having alternative angles more than just "on the side" or "in front".
+
+- The third study rules out the possibility of horizontal location of the stimuli in the field of view caused by the difference of head and gaze direction. 
+
+- The fourth study investigates whether additional depth cue (pictorial cue) provided by rendering will provide a difference on the performance or not.
+
+They used logistic regression model with a logistic link function to analyze the main/interaction effect of the study. To analyze the bias, they used a psychometric curves to see the sign of PSE (Point of Subjective Equality). These analysis methods are useful for force-choice study design. 
+
 ## Reaching measures of monocular distance perception : Forward versus side-to-side head movements and haptic feedback
 
 Wickelgren2000
