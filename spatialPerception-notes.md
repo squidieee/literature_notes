@@ -6,14 +6,14 @@ Vishwanath 2010
 
 A good chapter discusses how we see 3D in 2D pictures and how it is different from real 3D object. Author claims that the feeling of realism is associated with the existence of egocentric depth perception. The reason we see picture lack of true vivid depth is due to the absence of the egocentric depth perception. The duality of pictorial and real depth is in essence due to the distinction between relative and egocentrically scaled depth.
 
-# Space Perception
+## Space Perception
 
 Ware 2007
 
 "To some extent, we have a choice between accurately judging the size of a depicted object as though it exists in a 3D
 space and accurately judging its size on the picture plane (Hagen, 1974). The amount and effectiveness of the depth cues used will, to some extent, make it easy to see in one mode or the other."
 
-# Dyadic Projected Spatial Augmented Reality
+## Dyadic Projected Spatial Augmented Reality
 
 Benko 2014
 
@@ -21,7 +21,7 @@ A two-person projector-based immersive display that supports mono views and dyad
 
 # SIZE STUDY
 
-# Towards Quantifying Depth and Size Perception in Virtual Environments
+## Towards Quantifying Depth and Size Perception in Virtual Environments
 
 Rolland 1995
 
@@ -81,6 +81,14 @@ Affordance judgments measure perceived size by assessing what users believe they
 Stefanucci2015
 
 Same study as above but with stereo: stereo can reduce the effect of smaller real objects.
+
+## Phenomenal regression to the real object in physical and virtual worlds
+
+Kevin Elner 2016
+
+This paper proposed to use a metric called TR ratio to evaluate the spatial quality of virtual environment. TR ratio (Thouless ratio) is presented initially by Thouless as a systematic perceptual overestimation made by test subjects when trying to adjust the perspective size of near object to match the perspective size of far object, phrased as the "phenomenal regression to the real object". 
+In the task, they asked participants to adjust the size of a close object to match the perspective size of a far object. The close object is rendered virtually and physically (as two display conditions). They then used TR ratio to see whether there is any difference on TR between the virtual and physical condition. They did not find significant difference between display conditions. But the correlation between physical and virtual is significant and high to show the consistent performance between the virtual and real world. 
+TR ratio is quite interesting as it shows the tendency that human subjects tend to report a value between the perspective and actual property (not just size, but also color, intensity etc). This may be a related study to the my assumptions on the "on-screen cue" as well as the underestimation of the size. 
 
 ## Perceiving Layout and Knowing Distances: The integration, relative potency, and Contextual Use of Different Information about Depth
 
